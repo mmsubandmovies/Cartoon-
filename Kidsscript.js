@@ -1,4 +1,4 @@
-const url = "./Kidsm3u8.html"
+const url = "https://raw.githubusercontent.com/mmsubandmovies/Cartoon-/main/kidsm3u8.html"
 fetch(url)
   .then((response) => {
     const urlData = response.json();
