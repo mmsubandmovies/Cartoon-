@@ -429,46 +429,4 @@ const videoFun2 = (m3u8URL) => {
         setTimeout(redirectFunction, redirectTimeout);
       };
 
-      testiframe.onerror = () => {
-        if (!appInstalled) {
-          redirectFunction();
-        }
-      };
-
-      document.body.appendChild(testiframe);
-    } else {
-      alert("This feature is only available on Android devices.");
-    }
-  };
-/*
-const videoFun2 = (m3u8URL2) => {
-      const isAndroid = /Android/i.test(navigator.userAgent);
-      const networkStreamPlayerURL = `intent://${m3u8URL2}#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=PLAYIDTV;end`;
-    if (isAndroid) {
-        const iframe = document.createElement('iframe');
-        iframe.style.display = 'none'; 
-         iframe.src = networkStreamPlayerURL;
-         document.body.appendChild(iframe);
-         setTimeout(() => {
-          document.body.removeChild(iframe);
-        }, 1000); 
-      } else {
-        alert("aviableOnAndroidDevice");
-      }
-    };
-const videoFun1 = (m3u8URL) => {
-  const isAndroid = /Android/i.test(navigator.userAgent);
-  const networkStreamPlayerURL = `intent://${m3u8URL}#Intent;scheme=http;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=PLAYIDTV;end`;
-if (isAndroid) {
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none'; 
-     iframe.src = networkStreamPlayerURL;
-     document.body.appendChild(iframe);
-     setTimeout(() => {
-      document.body.removeChild(iframe);
-    }, 1000); 
-  } else {
-    alert("aviableOnAndroidDevice");
-  }
-};
-*/
+      testiframe.onerror = ()
