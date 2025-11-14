@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Avengers: Endgame",
+    "poster": "https://i.imgur.com/9b1pU.png",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "genre": "Action"
+  },
+  {
+    "title": "John Wick 4",
+    "poster": "https://i.imgur.com/8hJpT.png",
+    "url": "https://moovie.com/sample/johnwick4.m3u8",
+    "genre": "Action"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "poster": "https://i.imgur.com/tvYVd.png",
+    "url": "https://test-streams.mux.dev/bbb.m3u8",
+    "genre": "Adventure"
+  }
+]
